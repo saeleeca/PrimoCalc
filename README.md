@@ -1,4 +1,4 @@
-# GenshinCalc
+# PrimoCalc
 
 A calculator for Genshin Impact that approximates the amount of Primogems the user will have by the end of the patch cycle! 
 
