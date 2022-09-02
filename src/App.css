@@ -1,13 +1,16 @@
 .App {
   text-align: center;
-  /* vertical-align:top; */
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 23%;
+  padding-right: 23%;
 }
 
 .App-logo {
   height: 20vmin;
-  
+  pointer-events: none;
+}
+
+.App-logo2 {
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -15,10 +18,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+
+  .App-logo2 {
+    animation: App-logo-spin2 infinite 20s linear;
+  }
 }
 
 .App-header {
-  /* vertical-align:top; */
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -30,7 +36,11 @@
 }
 
 label {
-font-size: medium;
+  font-size: medium;
+  }
+  
+.App-link {
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -41,3 +51,58 @@ font-size: medium;
     transform: rotate(360deg);
   }
 }
+
+@keyframes App-logo-spin2 {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.user-status {
+  font-size: small;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 25%;
+  padding-top: 5%;
+  }
+  
+  .user-status span {
+    background-color: black;
+  }
+  
+  
+  .defaultHidden {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer {
+    position:absolute;
+    left:1;
+    bottom:0;
+    right:0;
+    }
+
+  /* .navMenu {
+    display: flex;
+    align-items:flex-start;
+  } */
+
+  a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: peachpuff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  
